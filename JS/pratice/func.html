@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></style>
+    <style>
+        .test {
+            background-color: green;
+        }
+    </style>
+</head>
+<body >
+   <div style="background-color:red">Hello world</div>  <!-- inline styling  -->
+   <div class="test">Hello world</div>  <!-- internal styling  -->
+   <div class="test1">Hello world</div>  <!-- external styling  -->
+   
+   <div style="display: flex;margin-top:10px"><p>Username: </p><input name="usernameinput" style="margin-left: 10px;" /></div>
+   <div style="display: flex;margin-top:10px"><p>email: </p><input name="emailinput" style="margin-left: 10px;"/></div>
+   <div style="display: flex;margin-top:10px"><p>password: </p><input name="passwordinput" style="margin-left: 10px;" /></div>
+<button style="background-color: blue;" onclick="handleChange()">Submit</button>
+<button style="background-color: red;" onclick="handleClear()">Clear</button>
+
+   <hr/>
+   <h5>User Details: </h5>
+   <p><b>username:</b> <input id="username" onchange="handleChangeRev()"/>
+   <p><b>email:</b> <input id="email" onchange="handleChangeRev()"/>
+   <p><b>password: </b><input id="password" onchange="handleChangeRev()"/>
+   <script src="functions.js">
+ 
+   </script>
+
+  
+    
+</body>
+</html>

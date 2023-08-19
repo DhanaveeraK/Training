@@ -1,0 +1,15 @@
+.test1{
+    background-color: violet;
+}
+#username {
+   color: red;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#email {
+   color: red;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#password {
+   color: red;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
